@@ -1,0 +1,40 @@
+:root {
+  --bg-color: #171717;
+  --text-color: #ffffff;
+  --font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text-color);
+}

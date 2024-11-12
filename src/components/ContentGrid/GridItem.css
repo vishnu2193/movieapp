@@ -1,0 +1,12 @@
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.grid-item__thumbnail {
+  width: 100%;
+  object-fit: cover;
+}
+.grid-item__title {
+  margin-top: 0.5rem;
+}
